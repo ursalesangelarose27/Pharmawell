@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #555555;
+}
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #4caf50;
+}
+.navbar-nav .nav-link {
+  color: #555555;
+  font-weight: bold;
+  padding: 0 20px;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+.login-icon,
+.cart-icon {
+  color: #555555;
+  font-size: 24px;
+  padding: 0 20px;
+}
+.login-icon:hover,
+.cart-icon:hover {
+  color: #007bff;
+}
+/* Footer Styles */
+footer {
+  background-color: #f0f3f2;
+  color: #21313c;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+footer p {
+  margin-bottom: 0;
+}
+footer a {
+  color: #21313c;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  color: #007bff;
+}
